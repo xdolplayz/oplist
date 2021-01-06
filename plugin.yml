@@ -1,0 +1,9 @@
+name: OPList
+version: 1.0.0
+api: 3.0.0
+author: xdolmation
+main: xdolmation\OPList\Main
+
+commands:
+  oplist:
+    description: Sends a list of opped users
