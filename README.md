@@ -13,8 +13,11 @@ The response you get when you use the command will look like this:
 \-------------------------
 
 Opped User List:
+
 xdolmation1
+
 xdolmation2
+
 xdolmation3
 
 \-------------------------
