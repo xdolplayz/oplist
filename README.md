@@ -11,6 +11,7 @@ You need to either be OP or be on console/rcon or have the perm "oplist.command"
 The response you get when you use the command will look like this:
 
 \-------------------------
+
 Opped User List:
 xdolmation1
 xdolmation2
