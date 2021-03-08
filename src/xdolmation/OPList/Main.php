@@ -3,7 +3,7 @@
 namespace xdolmation\OPList;
 
 use pocketmine\{Player, Server};
-use pocketmine\command\{Command, CommandSender};
+use pocketmine\command\{Command, CommandSender, ConsoleCommandSender};
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 
