@@ -18,10 +18,8 @@ class Main extends PluginBase implements Listener{
                 if(($sender instanceof Player and $sender->hasPermission("oplist.command"))
                 or $sender instanceof ConsoleCommandSender or $sender->isOp()) {
                 $ops = file_get_contents("ops.txt");
-                    $sender->sendMessage("§a-------------------------");//25 "-"s
-                    $sender->sendMessage("§6Opped User List:");
-                    $sender->sendMessage("§9" . $ops);
-                    $sender->sendMessage("§a-------------------------");//25 "-"s
+		$line = "§a-------------------------";
+		    $sender->sendMessage($line."\n§6Opped User List:\n§9".$ops.$line);
                 }else{
                     $sender->sendMessage("§cYou don't have permission to use this command!");
                 }
